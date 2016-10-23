@@ -1,0 +1,13 @@
+echo "# springrest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lhchar2/springrest.git
+git push -u origin master
+
+
+./mvnw spring-boot:run
+
+mvnw spring-boot:run
+
+http://localhost:8080/greeting
